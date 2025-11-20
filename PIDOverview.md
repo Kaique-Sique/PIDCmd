@@ -21,4 +21,13 @@ out = (kp * error) + (ki * integral) + (kd *(error - lastError))
 >
 > -> kp, kd and ki is constants.
 >
-> -> We set this constants to get the setpoint on the shortest way, without a big overshoot
+> -> We set this constants to get the setpoint on the shortest way, without a big overshoot.
+
+
+## Overshoot, what's it?
+Overshoot occurs when the system goes past its set point and fluctuates without stability.
+
+>[!IMPORTANT]
+>
+> A higher kp reaches the setpoint faster, however it causes a greater overshoot.
+
