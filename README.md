@@ -4,8 +4,9 @@ Welcome to the official repository for the **PIDCmd library** by BB-8 SESI 409 2
 
 ---
 
+
 # ⚡Importing library on Arduino IDE
-* [Download](https://github.com/BB-8-SESI409/PIDCmd/edit/main/README.md) .zip library.
+* [Download](https://github.com/user-attachments/files/23661180/PIDCmd.zip) .zip library.
 * Open and follow this path on Arduino IDE: Sketch > Include Library > Add .ZIP Library.
 * Select .zip library folder.
   
