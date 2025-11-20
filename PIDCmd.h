@@ -30,35 +30,18 @@ private:
     /////////////////////
     // PID output
     float out;
+
+    // SetPoint
+    float _setPoint;
+    // Tolerance
+    float _tolerance;
+
 public:
-    PIDCmd(/* args */); // Constructor for PIDCmd class
-    float PIDCalc(float error, float kp, float kd, float ki); // Method to calculate the PID output based on the error and PID constants
+    PIDCmd(float kp, float kd, float ki); // Constructor for PIDCmd class
+    
+    void setTolerance(float tolerance);
+
+    bool isInSetpoint(float input);
+
+    float PIDCalc(float setPoint, float input);
 };
-
-/**
- * @brief PID class contructor
- */
-PIDCmd::PIDCmd(/* args */)
-{
-}
-
-/**
- * @brief PID calculator
- * 
- * @param error PID error
- * 
- * @param kp const proportional gain
- * @param kd const derivative gain
- * @param ki const integral gain
- */
-float PIDCmd::PIDCalc(float error, float kp, float kd, float ki)
-{
-    integral += error;
-    derivative = error - last_error;
-
-    out = (error * kp) + (derivative * kd) + (integral * ki);
-
-    last_error = error;  // ← ESSENCIAL!
-
-    return out;
-}
