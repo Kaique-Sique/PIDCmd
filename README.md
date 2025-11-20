@@ -13,9 +13,9 @@ Welcome to the official repository for the **PIDCmd library** by BB-8 SESI 409 2
 
 | # | Topic | Subject | 
 | :---: | :--- | :--- |
-| **1**|[PID Overview](https://github.com/MegaZord7563/FRC_2026_Rebuilt/blob/main/SwerveReadme.md)|Understand the theory of who this system it's work|
-| **2**|[PIDCmd.h](https://github.com/MegaZord7563/FRC_2026_Rebuilt/blob/main/Pigeon.md) |library link to include on the project folder|
-|**3**|[Libray Overview](https://github.com/BB-8-SESI409/PIDCmd/edit/main/README.md)|Understand the commands and functions|
+| **1**|[PID Overview](https://github.com/BB-8-SESI409/PIDCmd/blob/main/PIDOverview.md) |Understand the theory of who this system it's work|
+| **2**|[PIDCmd.h](https://github.com/BB-8-SESI409/PIDCmd/blob/main/PIDCmd.h) |library link to include on the project folder|
+|**3**|[Libray Overview](https://github.com/BB-8-SESI409/PIDCmd/blob/main/LibraryCmds.md) |Understand the commands and functions|
 
 
 
