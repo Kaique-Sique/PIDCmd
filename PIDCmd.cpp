@@ -73,6 +73,7 @@ float PIDCmd::PIDCalc(float setPoint, float input)
     integral = integral + error;
     lastError = error;
 
+    _setPoint = setPoint;
     return out;
 }
 
